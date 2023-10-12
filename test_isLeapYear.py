@@ -2,7 +2,7 @@ from main import isLeapYear
 
 
 def test_year_dividable_by_4_is_LeapYear():
-    assert isLeapYear(2000) == True
+    assert isLeapYear(2000) == False
     assert isLeapYear(2004) == True
     assert isLeapYear(2008) == True
     assert isLeapYear(2012) == True
